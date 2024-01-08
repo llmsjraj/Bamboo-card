@@ -41,4 +41,5 @@ dotnet run
 ```
 Open your web browser and navigate to https://localhost:5001/api/hackernews/topstories/{count} to retrieve the best stories. Replace {count} with the desired number of stories.
 ## API Endpoints
+-  Swagger can be accessed at the `/swagger` endpoint.
 -  GET /api/hackernews/topstories/{count}: Retrieve the best N stories, where N is specified by the caller.
